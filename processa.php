@@ -8,7 +8,7 @@ $datanascimento= filter_input(INPUT_POST, 'datanascimento',FILTER_SANITIZE_NUMBE
 $cpf= filter_input(INPUT_POST, 'cpf', FILTER_SANITIZE_NUMBER_INT);
 $sexo = filter_input(INPUT_POST, 'sexo',FILTER_SANITIZE_STRING);
 $telefone = filter_input(INPUT_POST,'telefone',FILTER_SANITIZE_NUMBER_INT);
-$senha = filter_input(INPUT_POST,'senha',FILTER_SANITIZE_STRING);
+$senha = filter_input(INPUT_POST,'senha',FILTER_SANITIZE_NUMBER_INT);
 
 
 

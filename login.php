@@ -4,31 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="teste.css">
+    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
-
 <body>
     <!-- login formulario -->
-    <div class="container_form">
-        <h1>Login do Cliente</h1>
-        <form class="form" action="" method="post">
+    <div class="container text-center mt-3 pt-5">
+        <h1 class="form-weight-bold">Login do Cliente</h1>
+        <hr class="mx-auto">
+    </div>
+    <div class="mx-auto container">
+    <form id="login-form"  action="" method="post">
             <div class="form_grupo">
-                <label for="e-mail" class="form_label">Email</label>
-                <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com"required>
+                <label>Email</label>  <i class="fa-solid fa-envelope"></i><br>
+                </i><input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com"required>
             </div>
             <div class="form_grupo">
-                <label for="senha" class="form_label">Senha</label>
-                <input type="password" name="senha" class="form_input" id="senha" placeholder="123456@aaaA" required>
+                <label>Senha</label>  <i class="fa-solid fa-lock-open"></i><br>
+                <input type="password" name="senha" class="form_input" id="senha" placeholder="Rafael32@a" required>
                 <div class="form_grupo">
-                    <input type="submit" name="submit"class="submit_btn"value="LOGIN">
+                    <input type="submit" name="submit"value="logar"class="btn">
                 </div>
                 <div class="esqueci_senha">
-                    <a href="#">Esqueceu a senha?</a>
+                    <a href="#"class="entrar-btn">Esqueceu a senha?</a>
                 </div>
             </div>
             <p description="Não tem cadastro?" textlink="Cadastre-se" link="cadastro.php" class="ad">Não tem cadastro?
-                <a href="cadastro.php" class="ad">Cadastre-se</a></p>
+                <a href="cadastro.php" class="entrar-btn">Cadastre-se</a></p>
         </form>
     </div>
 
@@ -52,6 +56,9 @@
         mysqli_close($conn);
     }
         ?> 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
