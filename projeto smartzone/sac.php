@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>FALE CONOSCO</title>
+    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
 
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
@@ -44,7 +45,7 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
-                        <i class="bi-cart-fill me-1"></i>
+                       <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
