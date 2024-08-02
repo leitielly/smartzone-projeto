@@ -7,12 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>SMARTZONE</title>
-    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
     <link href="css/global.css" rel="stylesheet" />
 </head>
 
@@ -22,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">SMARTZONE</a>
+            <a class="navbar-brand" href="index.php">SMARTZONE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -147,7 +143,8 @@
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="teclado.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -171,7 +168,8 @@
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="gabinete.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -202,7 +200,7 @@
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="mouse.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -553,6 +551,9 @@
         </div>
     </footer>
 
+    <!--script-->
+
+    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>

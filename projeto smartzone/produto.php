@@ -7,12 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>MONITOR GAMER KBM!</title>
-    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
     <link href="css/global.css" rel="stylesheet" />
 </head>
 
@@ -45,7 +41,7 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
-                      <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                         CARRINHO
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
@@ -64,7 +60,7 @@
                 <div class="col-md-6">
                     <div class="small mb-1"> SRGB - KGMG80034PT</div>
                     <h1 class="display-5 fw-bolder">Monitor Gamer KBM! GAMING MG800 34", Ultrawide, 180Hz, QHD, 1ms,
-                        DisplayPort e HDMI, Adaptive Sync, 95% SRGB - KGMG80034PT</h1>
+                        DisplayPort e HDMI, Adaptive Sync, 95% SRGB</h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$3.015,01</span>
                         <span>R$ 1.929,99 </span>
@@ -79,7 +75,7 @@
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
                             style="max-width: 3rem" />
                         <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                           <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                             Adicionar ao Carrinho
                         </button>
                     </div>
@@ -105,13 +101,22 @@
                                 <h5 class="fw-bolder">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red, Full
                                     Size, US, Preto - 4P5E1AA#ABA</h5>
 
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
                                 <span class="text-muted text-decoration-line-through"> R$ 555,45</span><br>
                                 R$ 269,99
                             </div>
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="teclado.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -127,15 +132,7 @@
                             <div class="text-center">
 
                                 <h5 class="fw-bolder">Gabinete Gamer Corsair 4000D Airflow, Mid-Tower, ATX, Lateral em
-                                    Vidro Temperado, Com FAN, Preto - CC-9011200-WW</h5>
-
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
+                                    Vidro Temperado, Com FAN, Preto </h5>
 
                                 <span class="text-muted text-decoration-line-through"> R$ 777,67</span><br>
                                 R$ 649,90
@@ -143,7 +140,8 @@
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="gabinete.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -161,13 +159,21 @@
                                 <h5 class="fw-bolder">Mouse Gamer T-Dagger Camaro, RGB, 8000DPI, 8 Botões Programáveis,
                                     Preto - T-TGM306</h5>
 
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
                                 R$ 79,99
 
                             </div>
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="mouse.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -184,14 +190,6 @@
 
                                 <h5 class="fw-bolder">Headset Gamer Fifine H9, Som Surround 7.1, USB, Console e PC,
                                     Preto - H9</h5>
-
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
 
                                 <span class="text-muted text-decoration-line-through">R$ 277,77</span><br>
                                 R$ 149,99
@@ -215,6 +213,9 @@
         </div>
     </footer>
 
+    <!--script-->
+
+    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>

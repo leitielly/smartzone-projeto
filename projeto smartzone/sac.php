@@ -7,12 +7,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>FALE CONOSCO</title>
-    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
-
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
     <link href="css/global.css" rel="stylesheet" />
 </head>
 
@@ -22,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">SMARTZONE</a>
+            <a class="navbar-brand" href="index.php">SMARTZONE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -45,7 +41,7 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
-                       <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
@@ -178,7 +174,7 @@
                 <div class="col mb-5">
                     <div class="card h-100">
 
-                        <img class="card-img-top" src="./assets/teste.jpg" alt="..." />
+                        <img class="card-img-top" src="./assets/tecnico.jpg" alt="..." />
 
                         <div class="card-body p-4">
                             <div class="text-center">
@@ -209,6 +205,9 @@
         </div>
     </footer>
 
+    <!--script-->
+
+    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>

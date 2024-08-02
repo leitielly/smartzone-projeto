@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>TECLADO MECÂNICO GAMER</title>
+    <title>MOUSE GAMER</title>
     <link rel="icon" type="image/x-icon" href="./assets/Logo-do-SMARTZONE.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="css/global.css" rel="stylesheet" />
@@ -55,12 +55,13 @@
     <section class="py-5">
         <div class="container px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
-                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="./assets/teclado.jpg" alt="..." />
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="./assets/mouse.jpg" alt="..." />
                 </div>
                 <div class="col-md-6">
-                    <div class="small mb-1"> 4P5E1AA#ABA</div>
-                    <h1 class="display-5 fw-bolder">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red, Full
-                        Size, US, Preto</h1>
+                    <div class="small mb-1"> CC-9011200-WW</div>
+                    <h1 class="display-5 fw-bolder">Mouse Gamer T-Dagger Camaro, RGB, 8000DPI, 8 Botões Programáveis,
+                        Preto - T-TGM306</h1>
+                    <div class="fs-5 mb-5">
 
                         <div class="d-flex small text-warning mb-2">
                             <div class="bi-star-fill"></div>
@@ -70,24 +71,10 @@
                             <div class="bi-star-fill"></div>
                         </div>
 
-                    <div class="fs-5 mb-5">
-                        <span class="text-decoration-line-through">R$555,45</span>
-                        <span>R$ 269,99</span>
+                        R$ 79,99
+
                     </div>
-                    <p class="lead">Obtenha uma iluminação radiante e por tecla com efeitos dinâmicos para adicionar um toque de
-                        estilo ao seu setup de PC. </p>
-                    <p class="lead"> Estrutura em alumínio durável:
-                        Com uma estrutura de alumínio sólida, o Alloy MKW100 foi projetado para fornecer estabilidade
-                        quando os toques em teclas estiverem a todo vapor.
-                        O descanso para pulso removível ajuda a reduzir a fadiga de longas sessões de jogos ou de
-                        trabalho. </p>
-                    <p class="lead"> Switches à prova de poeira responsivos e confiáveis:
-                        Com switches mecânicos à prova de poeira com classificação de até 50 milhões de toques, você
-                        usufruirá a confiabilidade duradoura e silenciosa do Alloy MKW100.
-                        O conector USB em metal dourado impede a corrosão, enquanto a trança de tecido aumenta a
-                        longevidade do cabo para anos de uso confiável.
-                        Personalize o show de luz RGB do Alloy MKW100 com o poderoso software HyperX NGENUITY fácil de
-                        usar.</p>
+                    <p class="lead">Mouse Gamer T-Dagger Camaro, RGB, 8000DPI, 8 Botões Programáveis, Preto - T-TGM306</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
                             style="max-width: 3rem" />
@@ -135,6 +122,39 @@
                 <div class="col mb-5">
                     <div class="card h-100">
 
+                        <img class="card-img-top" src="./assets/teclado.jpg" alt="..." />
+
+                        <div class="card-body p-4">
+                            <div class="text-center">
+
+                                <h5 class="fw-bolder">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red, Full
+                                    Size, US, Preto</h5>
+
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
+                                <span class="text-muted text-decoration-line-through"> R$ 555,45</span><br>
+                                R$ 269,99
+                            </div>
+                        </div>
+
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="teclado.php">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+
+                <div class="col mb-5">
+                    <div class="card h-100">
+
                         <img class="card-img-top" src="./assets/gabinete.jpg" alt="..." />
 
                         <div class="card-body p-4">
@@ -149,40 +169,7 @@
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="gabinete.php">Comprar</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Card 3-->
-
-                <div class="col mb-5">
-                    <div class="card h-100">
-
-                        <img class="card-img-top" src="./assets/mouse.jpg" alt="..." />
-
-                        <div class="card-body p-4">
-                            <div class="text-center">
-
-                                <h5 class="fw-bolder">Mouse Gamer T-Dagger Camaro, RGB, 8000DPI, 8 Botões Programáveis,
-                                    Preto - T-TGM306</h5>
-
-                                R$ 79,99
-
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="mouse.php">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="gabinete.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
