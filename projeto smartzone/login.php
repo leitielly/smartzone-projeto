@@ -1,3 +1,25 @@
+<!-- validando login -->
+<?php
+    session_start();
+    include_once 'conexao.php';
+    if (isset($_POST['submit'])) {
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $sql = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+        $result = mysqli_query($conn, $sql);
+        if (mysqli_num_rows($result) > 0) {
+            $dados = mysqli_fetch_assoc($result);
+            $_SESSION['email'] = $dados['email'];
+            $_SESSION['senha'] = $dados['senha'];
+            header('location: account.html');
+        } else {
+            $_SESSION['msg'] = "<p7 style = 'color:red;'>Email ou senha incorretos!</p7>";
+        }
+        mysqli_close($conn);
+    }
+        ?> 
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,18 +75,19 @@
 
 
     <!-- login formulario -->
+   
         <div class="container text-center mt-3 pt-5">
             <h1 class="form-weight-bold">Login do Cliente</h1>
             <hr id="traco"class="mx-auto">
     </div>
     <div class="mx-auto container">
-        <form id="login-form"  action="" method="post">
+        <form id="login-form"  action="login.php" method="post">
             <div class="form_grupo">
                 <label>Email</label>  <i class="fa-solid fa-envelope"></i><br>
             </i><input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com"required>
         </div>
         <div class="form_grupo">
-            <label>Senha</label>  <i class="fa-solid fa-lock-open"></i><br>
+            <label>Senha</label> <i class="fa-solid fa-lock-open"></i><br>
             <input type="password" name="senha" class="form_input" id="senha" placeholder="Rafael32@a" required>
             <div class="form_grupo">
                 <input type="submit" name="submit"value="logar"class="ntb">
@@ -77,33 +100,21 @@
             <a href="cadastro.php" class="entrar-btn">Cadastre-se</a></p>
         </form>
     </div>
+    <?php
+    if (isset($_SESSION['msg'])) {
+        echo $_SESSION['msg'];
+        unset($_SESSION['msg']);
+    }
+    ?>
 
     <br><br>
     <br><br>
     <br><br>
+    
    
 
 
-    <!-- validando login -->
-    <?php
-    session_start();
-    include_once 'conexao.php';
-    if (isset($_POST['submit'])) {
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        $sql = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
-        $result = mysqli_query($conn, $sql);
-        if (mysqli_num_rows($result) > 0) {
-            $dados = mysqli_fetch_assoc($result);
-            $_SESSION['email'] = $dados['email'];
-            $_SESSION['senha'] = $dados['senha'];
-            header('location: account.html');
-        } else {
-            echo "<h7>Email ou senha incorretos!</h7>";
-        }
-        mysqli_close($conn);
-    }
-        ?> 
+    
 
 
 
