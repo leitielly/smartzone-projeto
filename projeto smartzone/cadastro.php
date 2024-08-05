@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="cadlog.css">
     <title>Cadastro</title>
 </head>
 
 <body>
- <!--Menu de Navegação-->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--Menu de Navegação-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="index.html">SMARTZONE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +39,7 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
-                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
@@ -46,73 +48,214 @@
         </div>
     </nav>
 
-<?php
+    <?php
     if (isset($_SESSION['msg'])) {
         echo $_SESSION['msg'];
         unset($_SESSION['msg']);
     }
     ?>
     <!-- cadastro formulario -->
-     <section class="my-5 py-5">
-         <div class="container text-center mt-3 pt-5">
-             <h1 class="form-weight-bold">Crie seu Cadastro</h1>
-             <hr id="traco" class="mx-auto">
-            </div>
-            <div class="mx-auto container">
-            <form id="login-form" action="processa.php" method="post">
-                 <div class="form_grupo">
-                     <label>Nome Completo</label><br>
-                     <i class="fa-solid fa-user"></i>  <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
-                    </div>
-                    
-                    <div class="form_grupo">
-                        <label>Email</label><br>
-                        <i class="fa-solid fa-envelope"></i>  <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com"required>
-                    </div>
-                    
-                    <div class="form_grupo">
-                        <label>Data de Nascimento</label><br>
-                        <i class="fa-solid fa-calendar"></i>  <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="__/__/____"required>
-                    </div>
-                    <div class="form_grupo">
-                        <label>CPF</label><br>
-                <i class="fa-solid fa-lock"></i>  <input type="numero" name="cpf" class="form_input" id="cpf" placeholder="___.___.___-__" required>
-            </div>
-            <div class="form_grupo">
-                <label>Sexo:</label><br>
-                <i class="fa-solid fa-venus-mars"></i>  <select id="sexo"name="sexo" >
-                    <option>Masculino</option>
-                    <option>Feminino</option>
-                    <option>Näo informar</option>
-                </select>
-            </div>
-            
-            <div class="form_grupo">
-                <label>Telefone</label><br>
-                <i class="fa-solid fa-phone"></i>  <input type="numero" name="telefone" class="form_input" id="telefone" placeholder="(__) _____-____" required>
-            </div>
-            
-            <div class="form_grupo">
-                <label>Senha</label><br>
-                <i class="fa-solid fa-lock"></i>  <input id="senha" class="senha" description="precisa ter entre 6 e 20 caracteres" type="password"minlength="6" maxlength="20" cursor="pointer" name="senha" required="" label="[object Object]">
-            </div>
-            <div class="submit">
-                <input type="hidden" name="acao" value="enviar">
-                <button type="submit" name="Submit" class="ntb"> Criar Cadastro</button>
-            </div>
-            <p description="já tem cadastro?" textlink="entrar" link="login.php" class="ad">já tem cadastro?<a href="login.php"class="entrar-btn">entrar</a></p>
-        </form>
-            </div>
-</section>
- <!-- Rodapé -->
-<section>
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">SmartZone &copy; SmartZone 2024</p>
+    <section class="my-5 py-5">
+        <div class="container text-center mt-3 pt-5">
+            <h1 class="form-weight-bold">Crie seu Cadastro</h1>
+            <hr id="traco" class="mx-auto">
         </div>
-    </footer>
-</section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div class="mx-auto container">
+            <form id="login-form" action="processa.php" method="post">
+                <div class="form_grupo">
+                    <label>Nome Completo</label><br>
+                    <i class="fa-solid fa-user"></i> <input type="text" name="nome" class="form_input" id="nome"
+                        placeholder="Nome" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label>Email</label><br>
+                    <i class="fa-solid fa-envelope"></i> <input type="email" name="email" class="form_input" id="email"
+                        placeholder="seuemail@email.com" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label>Data de Nascimento</label><br>
+                    <i class="fa-solid fa-calendar"></i> <input type="date" name="datanascimento" class="form_input"
+                        id="datanascimento" placeholder="__/__/____" required>
+                </div>
+                <div class="form_grupo">
+                    <label>CPF</label><br>
+                    <i class="fa-solid fa-lock"></i> <input type="numero" name="cpf" class="form_input" id="cpf"
+                        placeholder="___.___.___-__" required>
+                </div>
+                <div class="form_grupo">
+                    <label>Sexo:</label><br>
+                    <i class="fa-solid fa-venus-mars"></i> <select id="sexo" name="sexo">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Näo informar</option>
+                    </select>
+                </div>
+
+                <div class="form_grupo">
+                    <label>Telefone</label><br>
+                    <i class="fa-solid fa-phone"></i> <input type="numero" name="telefone" class="form_input"
+                        id="telefone" placeholder="(__) _____-____" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label>Senha</label><br>
+                    <i class="fa-solid fa-lock"></i> <input id="senha" class="senha"
+                        description="precisa ter entre 6 e 20 caracteres" type="password" minlength="6" maxlength="20"
+                        cursor="pointer" name="senha" required="" label="[object Object]">
+                </div>
+                <div class="submit">
+                    <input type="hidden" name="acao" value="enviar">
+                    <button type="submit" name="Submit" class="ntb"> Criar Cadastro</button>
+                </div>
+                <p description="já tem cadastro?" textlink="entrar" link="login.php" class="ad">já tem cadastro?<a
+                        href="login.php" class="entrar-btn">entrar</a></p>
+            </form>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer id="rede"class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

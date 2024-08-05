@@ -20,7 +20,7 @@ $create_user = mysqli_query($conn,$create_user);
 
 if(mysqli_insert_id($conn)){
     $_SESSION['msg'] = "<p style = 'color:green;'>usuario cadastrado com suscesso</p>";
-    header("Location: cadastro.php");
+    header("Location: login.php");
     }else{
         $_SESSION['msg'] = "<p style = 'color:red;'>usuario Näo foi cadastrado com suscesso</p>";
         header("Location: cadastro.php");

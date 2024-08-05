@@ -7,8 +7,11 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>TECLADO MECÂNICO GAMER</title>
+
     <link rel="icon" type="image/x-icon" href="./assets/Logo-do-SMARTZONE.ico" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
     <link href="css/global.css" rel="stylesheet" />
 </head>
 
@@ -41,7 +44,7 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-dark" type="submit">
-                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <i class="bi-cart-fill me-1"></i>
                         CARRINHO
                         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                     </button>
@@ -59,35 +62,20 @@
                 </div>
                 <div class="col-md-6">
                     <div class="small mb-1"> 4P5E1AA#ABA</div>
-                    <h1 class="display-5 fw-bolder">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red, Full
-                        Size, US, Preto</h1>
-
-                        <div class="d-flex small text-warning mb-2">
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                        </div>
-
+                    <h1 class="display-5 fw-bolder">Teclado Mecânico Gamer HyperX Alloy MKW100, RGB, Switch Red, Full Size, US, Preto</h1>
                     <div class="fs-5 mb-5">
                         <span class="text-decoration-line-through">R$555,45</span>
                         <span>R$ 269,99</span>
                     </div>
-                    <p class="lead">Obtenha uma iluminação radiante e por tecla com efeitos dinâmicos para adicionar um toque de
-                        estilo ao seu setup de PC. </p>
+                    <p class="lead">Teclado HyperX Alloy MKW100, HKBM1-R-EUA/G - 4P5E1AA#ABA:
+                        Obtenha uma iluminação radiante e por tecla com efeitos dinâmicos para adicionar um toque de estilo ao seu setup de PC. </p>
                     <p class="lead"> Estrutura em alumínio durável:
-                        Com uma estrutura de alumínio sólida, o Alloy MKW100 foi projetado para fornecer estabilidade
-                        quando os toques em teclas estiverem a todo vapor.
-                        O descanso para pulso removível ajuda a reduzir a fadiga de longas sessões de jogos ou de
-                        trabalho. </p>
-                    <p class="lead"> Switches à prova de poeira responsivos e confiáveis:
-                        Com switches mecânicos à prova de poeira com classificação de até 50 milhões de toques, você
-                        usufruirá a confiabilidade duradoura e silenciosa do Alloy MKW100.
-                        O conector USB em metal dourado impede a corrosão, enquanto a trança de tecido aumenta a
-                        longevidade do cabo para anos de uso confiável.
-                        Personalize o show de luz RGB do Alloy MKW100 com o poderoso software HyperX NGENUITY fácil de
-                        usar.</p>
+                        Com uma estrutura de alumínio sólida, o Alloy MKW100 foi projetado para fornecer estabilidade quando os toques em teclas estiverem a todo vapor.
+                        O descanso para pulso removível ajuda a reduzir a fadiga de longas sessões de jogos ou de trabalho. </p>
+                    <p class="lead">   Switches à prova de poeira responsivos e confiáveis:
+                        Com switches mecânicos à prova de poeira com classificação de até 50 milhões de toques, você usufruirá a confiabilidade duradoura e silenciosa do Alloy MKW100.
+                        O conector USB em metal dourado impede a corrosão, enquanto a trança de tecido aumenta a longevidade do cabo para anos de uso confiável.
+                        Personalize o show de luz RGB do Alloy MKW100 com o poderoso software HyperX NGENUITY fácil de usar.</p>
                     <div class="d-flex">
                         <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
                             style="max-width: 3rem" />
@@ -115,17 +103,15 @@
                         <div class="card-body p-4">
                             <div class="text-center">
 
-                                <h5 class="fw-bolder">Monitor Gamer KBM! GAMING MG800 34", Ultrawide, 180Hz, QHD, 1ms,
-                                    DisplayPort e HDMI, Adaptive Sync, 95% SRGB - KGMG80034PT</h5>
+                                <h5 class="fw-bolder">Monitor Gamer KBM! GAMING MG800 34", Ultrawide, 180Hz, QHD, 1ms, DisplayPort e HDMI, Adaptive Sync, 95% SRGB - KGMG80034PT</h5>
 
                                 <span class="text-muted text-decoration-line-through"> R$3.015,01</span><br>
-                                R$ 1.929,99
+                                R$ 1.929,99 
                             </div>
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="produto.php">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -143,14 +129,21 @@
                                 <h5 class="fw-bolder">Gabinete Gamer Corsair 4000D Airflow, Mid-Tower, ATX, Lateral em
                                     Vidro Temperado, Com FAN, Preto - CC-9011200-WW</h5>
 
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
                                 <span class="text-muted text-decoration-line-through"> R$ 777,67</span><br>
                                 R$ 649,90
                             </div>
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="gabinete.php">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -170,19 +163,11 @@
 
                                 R$ 79,99
 
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-
                             </div>
                         </div>
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="mouse.php">Comprar</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -200,6 +185,14 @@
                                 <h5 class="fw-bolder">Headset Gamer Fifine H9, Som Surround 7.1, USB, Console e PC,
                                     Preto - H9</h5>
 
+                                <div class="d-flex justify-content-center small text-warning mb-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+
                                 <span class="text-muted text-decoration-line-through">R$ 277,77</span><br>
                                 R$ 149,99
                             </div>
@@ -215,16 +208,144 @@
     </section>
 
     <!--Rodape pagina produto-->
+    <footer id="rede"class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
 
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">SmartZone&copy; SmartZone 2024</p>
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
         </div>
-    </footer>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
 
-    <!--script-->
+      <hr class="my-3">
 
-    <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
