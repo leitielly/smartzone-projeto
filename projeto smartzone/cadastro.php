@@ -97,7 +97,17 @@
                 <div class="form_grupo">
                     <label>Telefone</label><br>
                     <i class="fa-solid fa-phone"></i> <input type="numero" name="telefone" class="form_input"
-                        id="telefone" placeholder="(__) _____-____" required>
+                        id="phone_with_ddd" placeholder="(__) _____-____" required>
+                </div>
+                <div class="form_grupo">
+                    <label>Endereço</label><br>
+                    <i class="fa-solid fa-map-location-dot"></i> <input type="text" name="endereco" class="form_input"
+                        id="endereco" placeholder="digite seu Endereço" required>
+                </div>
+                <div class="form_grupo">
+                    <label>CEP</label><br>
+                    <i class="fa-solid fa-location-dot"></i> <input type="numero" name="cep" class="form_input"
+                        id="cep" placeholder="00000-000" required>
                 </div>
 
                 <div class="form_grupo">
@@ -257,6 +267,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+        <script>
+           $('#cpf').mask('000.000.000-00', {reverse: true});
+           $('#phone_with_ddd').mask('(00) 0000-0000');
+           $('#cep').mask('00000-000');
+           
+        </script>
 </body>
 
 </html>
