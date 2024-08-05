@@ -2,6 +2,12 @@
 <?php
     session_start();
     include_once 'conexao.php';
+
+    if(issset($_SESSION['logged_in'])){
+      header('location: account.php');
+    }
+
+
     if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -11,6 +17,7 @@
             $dados = mysqli_fetch_assoc($result);
             $_SESSION['email'] = $dados['email'];
             $_SESSION['senha'] = $dados['senha'];
+            $_session['logged_in']=true;
             header('location: account.html');
         } else {
             $_SESSION['msg'] = "<p7 style = 'color:red;'>Email ou senha incorretos!</p7>";

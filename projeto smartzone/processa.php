@@ -27,3 +27,18 @@ if(mysqli_insert_id($conn)){
         $_SESSION['msg'] = "<p style = 'color:red;'>usuario Näo foi cadastrado com suscesso</p>";
         header("Location: cadastro.php");
 }
+
+//se ususario ja tem email
+$stmt1=$conn->prepare("SELECT count(*) FROM usuarios where email=?");
+$stmt1->bind_param('s',$email);
+$stmt1->execute();
+$stmt1->bind_result($num_rows);
+$stmt1->store_result();
+$stmt1->fecth();
+
+if($num_rows !=0){
+    header('location:register.php?error=Usuario com esse email ja existe');
+}else if (isset($_SESSION['logged_in'])){
+    header('location:account.php');
+    exit;
+}

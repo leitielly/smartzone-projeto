@@ -1,3 +1,12 @@
+<?php
+session_start();
+include_once('conexao.php');
+
+
+if(isset($_SESSION['logged_in'])){
+  header('location:account.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,6 +72,7 @@
         </div>
         <div class="mx-auto container">
             <form id="login-form" action="processa.php" method="post">
+              <p style="color:red;"><?php if(isset($_GET['error'])){ echo $_GET['error'];}?></p>
                 <div class="form_grupo">
                     <label>Nome Completo</label><br>
                     <i class="fa-solid fa-user"></i> <input type="text" name="nome" class="form_input" id="nome"
