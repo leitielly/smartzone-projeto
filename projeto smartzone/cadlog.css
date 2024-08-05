@@ -94,3 +94,30 @@ p8{
     color: #fb774b;
     text-decoration: none;
 }
+
+/* pedidos */
+.orders table{
+    width:100%;
+    border-collapse: collapse;
+}
+.orders .product-info{
+    display: flex;
+    flex-direction: wrap;
+}
+.orders th{
+    padding: 5px 10px;
+    color: white;
+    background-color: #fb774b;
+    text-align: left;
+}
+.orders th:nth-child(2){
+    padding-left: 3%;
+}
+.orders td{
+    padding: 10px 20px;
+}
+.orders td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
