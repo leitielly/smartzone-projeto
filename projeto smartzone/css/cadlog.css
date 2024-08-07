@@ -22,7 +22,7 @@ h1{
 }
 p7{
     width: 50%;
-    margin: 35px 43%;
+    margin: 35px 30%;
     text-align: center;
     padding:20px;
     font-size: 1 rem;
@@ -36,12 +36,6 @@ p8{
     margin:35px 41.05%;
     padding: 20px;
 }
-.btneditar{
-    color: #fb774b;
-    text-decoration: none;
-}
-
-
 
 /* Conta */
 #account-form{

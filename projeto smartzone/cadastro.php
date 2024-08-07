@@ -55,12 +55,7 @@ include_once('conexao.php');
         </div>
     </nav>
 
-    <?php
-    if (isset($_SESSION['msg'])) {
-        echo $_SESSION['msg'];
-        unset($_SESSION['msg']);
-    }
-    ?>
+
     <!-- cadastro formulario -->
     <section class="my-5 py-5">
         <div class="container text-center mt-3 pt-5">
@@ -69,6 +64,13 @@ include_once('conexao.php');
         </div>
         <div class="mx-auto container">
             <form id="login-form" action="processa.php" method="post">
+              <!-- Mensagem de erro ou sucesso -->
+               <?php
+               if (isset($_SESSION['msg'])) {
+                echo $_SESSION['msg'];
+                unset($_SESSION['msg']);
+              }
+              ?>
               <p style="color:red;"><?php if(isset($_GET['error'])){ echo $_GET['error'];}?></p>
                 <div class="form_grupo">
                     <label>Nome Completo</label><br>

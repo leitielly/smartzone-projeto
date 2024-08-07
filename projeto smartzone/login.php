@@ -15,7 +15,7 @@
             $_SESSION['senha'] = $dados['senha'];
             header('Location: account.php');
         } else {
-            $_SESSION['msg'] = "<p7 style = 'color:red;'>Email ou senha incorretos!</p7>";
+            $_SESSION['msg'] = "<p8 style = 'color:red;'>Email ou senha incorretos!</p8>";
         }
         mysqli_close($conn);
     }

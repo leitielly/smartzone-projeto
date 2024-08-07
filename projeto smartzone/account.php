@@ -1,9 +1,3 @@
-<?php
-session_start();
-include_once('conexao.php');
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +14,7 @@ include_once('conexao.php');
     
     <title>Document</title>
 </head>
+</style>
 <body>
    <!--Menu de Navegação-->
 
@@ -60,26 +55,67 @@ include_once('conexao.php');
     <!--Conta-->
   <section class="my-5 py-5">
   <?php
-  $select_user = "SELECT * FROM usuarios";
-  $selected_user = mysqli_query($conn, $select_user);
-  $row_user = mysqli_fetch_assoc($selected_user);
+session_start();
+include_once('conexao.php');
 
-echo "<div class='row container mx-auto'>";
-echo "<div class='text-center mt-3 pt-5 col-lg-6 col-md-12 col-sm-12'>";
-echo "<h1 class='font-weight-bold'>Informação da conta</h1>";
-echo "<hr id='traco' class='mx-auto'>";
-echo "<div class='account-info'>";
-echo "<p>Nome completo: " . $row_user['nome'] . "</p>";
-echo "<p>Email: ". $row_user['email']. "</p>";
-echo "<p>Endereço: ". $row_user['endereco']. "</p>";
-echo "<p><a href='edit_usuario.php? id=". $row_user['id']."'>Editar</a></p>";
-echo "<p><a href='#orders'id='pedidos-btn'>Seus Pedidos</a></p>";
-echo "<p><a href='account.php?logout=1'id='logout-btn'>Logout</a></p>";
+// Verifica se o usuário está tentando fazer logout
+if (isset($_GET['logout']) && $_GET['logout'] == '1') {
+    // Destroi todas as variáveis da sessão
+    $_SESSION = array();
 
-echo "</div>";
-echo "</div>";
+    // Se usar cookies para a sessão, também os limpa
+    if (ini_get("session.use_cookies")) {
+        $params = session_get_cookie_params();
+        setcookie(session_name(), '', time() - 42000,
+            $params["path"], $params["domain"],
+            $params["secure"], $params["httponly"]
+        );
+    }
+
+    // Destroi a sessão
+    session_destroy();
+
+    // Redireciona para a página de login
+    header('Location: login.php');
+    exit();
+}
+
+// Verifica se o usuário está logado
+if (!isset($_SESSION['email'])) {
+    header('Location: login.php');
+    exit();
+}
+
+$email = $_SESSION['email'];
+
+// Prepara a consulta para evitar SQL Injection
+$stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = ?");
+$stmt->bind_param("s", $email);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows > 0) {
+    $row_user = $result->fetch_assoc();
+    echo "<div class='row container mx-auto'>";
+    echo "<div class='text-center mt-3 pt-5 col-lg-6 col-md-12 col-sm-12'>";
+    echo "<h1 class='font-weight-bold'>Informação da conta</h1>";
+    echo "<hr id='traco' class='mx-auto'>";
+    echo "<div class='account-info'>";
+    echo "<p>Nome completo: " . htmlspecialchars($row_user['nome']) . "</p>";
+    echo "<p>Email: " . htmlspecialchars($row_user['email']) . "</p>";
+    echo "<p>Endereço: " . htmlspecialchars($row_user['endereco']) . "</p>";
+    echo "<p><a href='#orders' id='pedidos-btn'>Seus Pedidos</a></p>";
+    echo "<p><a href='account.php?logout=1' id='logout-btn'>Logout</a></p>";
+    echo "<p><a href='edit_usuario.php?id=" . htmlspecialchars($row_user['id']) . "' style='color: #fb774b; text-decoration: none;'>Editar</a></p>";
+    echo "</div>";
+    echo "</div>";
+} else {
+    echo "<p>Usuário não encontrado.</p>";
+}
+
+$stmt->close();
+mysqli_close($conn);
 ?>
-
 
             <div class="col-lg-6 col-md-12 col-sm-12" >
                 <form id="account-form" method="post">
