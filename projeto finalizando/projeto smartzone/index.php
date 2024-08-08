@@ -111,7 +111,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/monitor.php">Comprar</a></div>
+                                    href="./produtos/monitor.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/teclado.php">Comprar</a></div>
+                                    href="./produtos/teclado.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/gabinete.php">Comprar</a></div>
+                                    href="./produtos/gabinete.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/mouse.php">Comprar</a></div>
+                                    href="./produtos/mouse.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/headset.php">Comprar</a></div>
+                                    href="./produtos/headset.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/placadevideo.php">Comprar</a></div>
+                                    href="./produtos/placadevideo.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/ssd.php">Comprar</a>
+                                    href="./produtos/ssd.php">Comprar</a>
                             </div>
                         </div>
                     </div>
@@ -316,7 +316,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/notebook.php">Comprar</a></div>
+                                    href="./produtos/notebook.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -348,7 +348,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/cadeira.php">Comprar</a></div>
+                                    href="./produtos/cadeira.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -373,7 +373,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/gabinetebranco.php">Comprar</a></div>
+                                    href="./produtos/gabinetebranco.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -397,7 +397,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/notevaio.php">Comprar</a></div>
+                                    href="./produtos/notevaio.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -429,7 +429,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/headsetrosa.php">Comprar</a></div>
+                                    href="./produtos/headsetrosa.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -462,7 +462,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/amd.php">Comprar</a>
+                                    href="./produtos/amd.php">Comprar</a>
                             </div>
                         </div>
                     </div>
@@ -496,7 +496,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/intel.php">Comprar</a></div>
+                                    href="./produtos/intel.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -520,7 +520,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/placamae.php">Comprar</a></div>
+                                    href="./produtos/placamae.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -551,7 +551,7 @@
 
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                             <div class="text-center"><a class="btn btn-outline-dark mt-auto"
-                                    href="../produtos/desktop.php">Comprar</a></div>
+                                    href="./produtos/desktop.php">Comprar</a></div>
                         </div>
                     </div>
                 </div>

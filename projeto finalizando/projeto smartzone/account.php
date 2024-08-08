@@ -17,7 +17,6 @@
 </style>
 <body>
    <!--Menu de Navegação-->
-
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="index.php">SMARTZONE</a>
@@ -51,6 +50,7 @@
             </div>
         </div>
     </nav>
+
 
     <!--Conta-->
   <section class="my-5 py-5">
@@ -190,20 +190,43 @@ mysqli_close($conn);
 
                     <hr class="w-100 clearfix d-md-none" />
 
+                    <!-- Grid column --><!--Rodape da pagina principal-->
+
+     <footer id="rede" class="text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            SMARTZONE
+                        </h6>
+                        <p>
+                            A SmartZone é uma loja de informática que oferece uma ampla variedade de produtos
+                            tecnológicos para consumidores e empresas.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
                     <!-- Grid column -->
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
                         <p>
-                            <a class="text-white" href="../produtos/amd.php">Hardware</a>
+                            <a class="text-white" href="./produtos/amd.php">Hardware</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/teclado.php">Periféricos</a>
+                            <a class="text-white" href="./produtos/teclado.php">Periféricos</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/desktop.php">Computadores</a>
+                            <a class="text-white" href="./produtos/desktop.php">Computadores</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/headset.php">Games</a>
+                            <a class="text-white" href="./produtos/headset.php">Games</a>
                         </p>
                     </div>
                     <!-- Grid column -->

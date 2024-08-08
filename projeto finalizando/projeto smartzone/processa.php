@@ -31,7 +31,7 @@ $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, datanascimento, cpf, 
 $stmt->bind_param("sssssssss", $nome, $email, $datanascimento, $cpf, $sexo, $telefone, $endereco, $cep, $senha);
 
 if ($stmt->execute()) {
-    $_SESSION['msg'] = "<p8 style='color:green;'>Usuário cadastrado com sucesso!</p8>";
+    $_SESSION['msg'] = "<p8 style='color:green;'> Sucesso cadastrar usuário!</p8>";
     header("Location: login.php");
 } else {
     $_SESSION['msg'] = "<p8 style='color:red;'>Erro ao cadastrar usuário.</p8>";

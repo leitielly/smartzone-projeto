@@ -14,9 +14,8 @@
 
 <body>
 
-    <!--Menu de Navegação-->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <!--Menu de Navegação-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="index.php">SMARTZONE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -99,9 +98,9 @@
 
     </section>
 
-    <!--Rodape da pagina principal-->
+   <!--Rodape da pagina principal-->
 
-    <footer id="rede" class="text-center text-lg-start text-white">
+   <footer id="rede" class="text-center text-lg-start text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Links -->
@@ -126,16 +125,16 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
                         <p>
-                            <a class="text-white" href="../produtos/amd.php">Hardware</a>
+                            <a class="text-white" href="./produtos/amd.php">Hardware</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/teclado.php">Periféricos</a>
+                            <a class="text-white" href="./produtos/teclado.php">Periféricos</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/desktop.php">Computadores</a>
+                            <a class="text-white" href="./produtos/desktop.php">Computadores</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/headset.php">Games</a>
+                            <a class="text-white" href="./produtos/headset.php">Games</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -219,7 +218,6 @@
         </div>
         <!-- Grid container -->
     </footer>
-
     <!--script-->
 
     <script src="https://kit.fontawesome.com/2efb6f99a5.js" crossorigin="anonymous"></script>
