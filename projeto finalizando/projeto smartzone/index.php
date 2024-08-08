@@ -588,16 +588,16 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Produtos</h6>
                         <p>
-                            <a class="text-white" href="../produtos/amd.php">Hardware</a>
+                            <a class="text-white" href="./produtos/amd.php">Hardware</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/teclado.php">Periféricos</a>
+                            <a class="text-white" href="./produtos/teclado.php">Periféricos</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/desktop.php">Computadores</a>
+                            <a class="text-white" href="./produtos/desktop.php">Computadores</a>
                         </p>
                         <p>
-                            <a class="text-white" href="../produtos/headset.php">Games</a>
+                            <a class="text-white" href="./produtos/headset.php">Games</a>
                         </p>
                     </div>
                     <!-- Grid column -->
