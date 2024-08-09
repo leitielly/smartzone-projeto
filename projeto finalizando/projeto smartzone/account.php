@@ -168,31 +168,7 @@ mysqli_close($conn);
     </section>
 
    <!--Rodape da pagina principal-->
-
-   <footer id="rede" class="text-center text-lg-start text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            SMARTZONE
-                        </h6>
-                        <p>
-                            A SmartZone é uma loja de informática que oferece uma ampla variedade de produtos
-                            tecnológicos para consumidores e empresas.
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column --><!--Rodape da pagina principal-->
-
-     <footer id="rede" class="text-center text-lg-start text-white">
+  <footer id="rede" class="text-center text-lg-start text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Links -->
