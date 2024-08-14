@@ -62,7 +62,7 @@
                     <h1 class="display-5 fw-bolder">Placa Mãe Asus Prime H610M-A D4, LGA 1700 H610, mATX, DDR4</h1>
                     <div class="fs-5 mb-5">
 
-                        <span class="text-muted text-decoration-line-through">R$ 864,70</span>
+                        <span class="text-muted text-decoration-line-through">R$ 864,70</span><br>
 
                         R$ 629,99
 
